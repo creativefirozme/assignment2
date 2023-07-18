@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .navbar {
@@ -11,4 +12,62 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.menu-title>span {
+    color: #FF42A5;
+}
+
+.nav-logo-and-title {
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-menus>ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 240px;
+    align-items: center;
+}
+
+.menu3 {
+    width: 262px;
+    height: 56px;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+
+}
+.menu3-logo{
+    display: flex;
+    align-items: center;
+    margin: 17px;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+    line-height: normal;
+}
+
+
+.youtube {
+    width: 33.916px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+.tiktok {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
 }

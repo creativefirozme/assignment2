@@ -4,6 +4,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* navbar section starts here */
+
 .navbar {
     width: 1920px;
     height: 130px;
@@ -45,7 +47,8 @@
     background: rgba(11, 2, 35, 0.10);
 
 }
-.menu3-logo{
+
+.menu3-logo {
     display: flex;
     align-items: center;
     margin: 17px;
@@ -71,3 +74,21 @@
     height: 24px;
     margin-left: 16px;
 }
+
+/* navbar section ends here */
+
+/* banner section starts here */
+.banner{
+    width: 1920px;
+    height: 700px;
+    background-color: #FFF;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+.banner-container{
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+
+/* banner section ends here */

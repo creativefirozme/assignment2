@@ -444,3 +444,19 @@
 }
 
 /* careers section ends here */
+
+/* game category starts here */
+
+.game-category {
+    margin: 120px 0px 100px 249px;
+}
+
+.category-btn-1 {
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+
+/* game category ends here */

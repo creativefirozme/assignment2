@@ -6,6 +6,8 @@
 
 /* navbar section starts here */
 
+
+
 .navbar {
     width: 1920px;
     height: 130px;
@@ -14,6 +16,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .menu-title>span {
@@ -617,6 +621,36 @@
     height: 60px;
 }
 
-
-
 /* game category ends here */
+
+/* footer section starts here */
+
+.footer-container {
+    width: 1920px;
+    height: 636px;
+    flex-shrink: 0;
+    background-color: #0B0223;
+    color: white;
+}
+
+
+.footer-logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 120px;
+}
+
+.footer-icon {
+    width: 86.041px;
+    height: 40px;
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* footer section ends here */

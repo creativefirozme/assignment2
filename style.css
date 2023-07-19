@@ -148,7 +148,6 @@
     padding: 21px 40px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-    color: #FFF;
     border: none;
     color: #FFF;
     font-size: 20px;
@@ -166,7 +165,6 @@
     background-color: #4EC5F7;
     border: none;
     color: white;
-    color: #FFF;
     font-size: 20px;
     font-weight: 600;
     line-height: normal;

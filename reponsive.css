@@ -4,7 +4,7 @@
 @media screen and (max-width: 425px) {
 
     .navbar {
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 400px;
         box-shadow: none;
     }
@@ -30,30 +30,88 @@
         justify-content: center;
         margin: 0px;
         padding: 0px;
+        margin-top: 270px;
     }
+    
 
     .banner-container {
-        width: 420px;
+        width: 425px;
         margin: 0px;
-        padding-top: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .btn {
+        display: flex;
+        gap: 15px;
+        margin-top: 41px;
+        text-transform: uppercase;
+        padding-left: 40px;
     }
 
     .banner-img2 {
-        width: 420px;
-        margin: 0px 66px 0px 145px;
-    }
+        width: 300px;
+        margin: 20px 66px 0px 60px;
+        padding-bottom: 0px;
 
-    .we-are-gamer-section {
-        flex-direction: column;
-        text-align: none;
-        justify-content: none;
-        width: 425px;
     }
 
     .we-are-gamer-section>img {
-        width: 600px;
+        width: 420px;
         padding: 0px;
     }
+
+    .we-are-gamer-section {
+        width: 425px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: none;
+    }
+
+    .gamer-section-title {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 24px;
+    }
+
+    .gamer-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .btn3 {
+        padding: 10px 20px;
+        gap: 50px;
+        border-radius: 48px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+
+    .gamer-section-bottom-contant>span {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 2px;
+    }
+
+    .gamer-section-bottom-contant {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    .gamer-section-contant {
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        margin-bottom: 32px;
+    }
+
 
     .gamer-section-contant {
         text-align: center;
@@ -72,6 +130,27 @@
         margin-top: 120px;
         text-align: center;
     }
+
+    .funny-videos-title {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .funny-videos-title>span {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .funny-videos-contant {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 16px;
+        margin-bottom: 80px;
+    }
+
 
     .all-box {
         flex-direction: column;

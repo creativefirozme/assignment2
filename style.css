@@ -326,6 +326,13 @@
     justify-content: space-between;
 }
 
+.play-instantly-title>span {
+    background-color: #F948B2; 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .play-instantly-title {
     font-size: 48px;
     font-style: normal;
@@ -335,6 +342,7 @@
     text-align: right;
     margin: 216px 0px 0px 439px;
 }
+
 
 .play-instantly-contant {
     color: #534C64;
@@ -351,6 +359,11 @@
     width: 634.833px;
     height: 650px;
     margin-right: 240px;
+}
+
+.play-instantly-img-2 {
+    position: absolute;
+    margin: -290px 0px 0px -140px;
 }
 
 /* instantly section ends here */
